@@ -26,7 +26,7 @@ export default function SortableItem({ id, title, onDelete }: Props) {
       className="flex items-center justify-between rounded-2xl border border-black/10 dark:border-white/10 glass shadow-soft px-4 py-3"
     >
       <button
-        className="mr-3 cursor-grab active:cursor-grabbing select-none text-xl opacity-70 hover:opacity-100"
+        className="mr-3 w-6 h-6 flex items-center justify-center cursor-grab active:cursor-grabbing select-none text-xl opacity-70 hover:opacity-100"
         aria-label="Drag handle"
         {...attributes}
         {...listeners}

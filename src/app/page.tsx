@@ -70,8 +70,8 @@ export default function Home() {
         </div>
       </header>
       <main className="mx-auto w-full max-w-md px-4 pb-16 pt-4">
-        <div className="glass rounded-2xl shadow-soft p-3">
-          <div className="flex gap-2">
+        <div className="glass rounded-2xl shadow-soft p-0">
+          <div className="flex gap-2 px-4 py-3">
             <input
               value={input}
               onChange={(e) => setInput(e.target.value)}
